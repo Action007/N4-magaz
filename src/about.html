@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/favicon/favicon-main.png">
+  <title>Sublime</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+  
+  @include('components/_header.html', {
+  "header": "header header--scroll",
+  "btn" : "header-main__link",
+  "logo" : "logo",
+  "link" : "Contact",
+  "top" : {
+  }
+  })
+
+  <main class="main">
+
+    @include('./components/_breadcrumbs.html', {
+    "title": "Online strategy and consulting services",
+    "link" : "About Us"
+    })
+
+    <section class="sublime">
+      <div class="container">
+        <div class="sublime-content">
+          <div class="sublime-content__box">
+            <div class="sublime-content__img sublime-content__img--first">
+              <img src="img/content/man2.jpg" alt="">
+            </div>
+            <div class="sublime-content__img sublime-content__img--last">
+              <img src="img/content/chess.jpg" alt="">
+            </div>
+          </div>
+          <div class="sublime-content__wrap">
+            <h2 class="sublime-content__title">
+              Unlock creativity and design without limits with Sublime
+            </h2>
+            <h3 class="sublime-content__subtitle">
+              Brand strategy and smart objectives
+            </h3>
+            <div class="sublime-content__text">
+              <p>
+                We start by listening and let that shape our design process, with our clients as partners every step
+                of the way.
+              </p>
+            </div>
+            <h3 class="sublime-content__subtitle">
+              Digital marketing and SEO
+            </h3>
+            <div class="sublime-content__text">
+              <p>
+                We start by listening and let that shape our design process, with our clients as partners every step
+                of the way.
+              </p>
+            </div>
+            <h3 class="sublime-content__subtitle">
+              UX design and development
+            </h3>
+            <div class="sublime-content__text sublime-content__text--last">
+              <p>
+                We start by listening and let that shape our design process, with our clients as partners every step
+                of the way.
+              </p>
+            </div>
+            <a class="link-btn" href="#">
+              Get Started
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="agency">
+      <div class="container">
+        <h2 class="agency__title">
+          See what our clients say about us
+        </h2>
+      </div>
+      <div class="agency__bottom">
+        <div class="container">
+          <div class="agency-slider swiper-container agency-slider--about">
+            <ul class="agency-slider__items swiper-wrapper">
+              @loop('./components/list/_agency-slider.html', [
+              {"img": "woman.jpg",
+              "name": "Thomas Smith"},
+              {"img": "woman.jpg",
+              "name": "Stella Smith"},
+              {"img": "woman.jpg",
+              "name": "Ernest Smith"}
+              ])
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="container">
+        <div class="review__wrap">
+          <h2 class="review__title title">
+            Helping brands win today and grow tomorrow
+          </h2>
+          <ul class="digital-brands__items">
+            @loop('./components/list/_digital-brands.html', [
+            {'class': 'digital-brands__img--big',
+            'img': '../img/content/column2.jpg',
+            'name': 'Thought Catalog'},
+            {'class': 'digital-brands__img--small',
+            'img': '../img/content/column1.jpg',
+            'name': 'Brading The Hero'},
+            {'class': 'digital-brands__img--small',
+            'img': '../img/content/column5.jpg',
+            'name': 'App Development'},
+            {'class': 'digital-brands__img--big',
+            'img': '../img/content/column4.jpg',
+            'name': 'Business Cards'},
+            {'class': 'digital-brands__img--big',
+            'img': '../img/content/2.jpg',
+            'name': 'Sky’s The Limit'},
+            {'class': 'digital-brands__img--small',
+            'img': '../img/content/column6.jpg',
+            'name': 'Campaign Rose Lemonade'}
+            ])
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container">
+        <span class="visual__desc">
+          They’re partners that inspire us to drive ongoing results
+        </span>
+        @include('./components/_brands-slider.html')
+      </div>
+      <div class="join">
+        <div class="container">
+          <div class="join__wrapper">
+            <h3 class="join__title">
+              Subscribe to our mailing list. Join our mail list to
+              receive our newsletter
+            </h3>
+            <p class="join__subtitle">
+              We'll keep you up to date with our latest news, insights, free resources, and much more.
+            </p>
+            <form class="join-form join__form">
+              <input class="join-form__input join__input" type="email" placeholder="Enter your email">
+              <button class="link-btn" type="submit">
+                Subscribe
+              </button>
+            </form>
+            <span class="join__span">Don't worry, we won't spam you.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback-bottom">
+      <div class="container">
+        <div class="feedback-bottom__wrap">
+          <h3 class="feedback-bottom__head creative-title">
+            <span>Want to work together?</span>
+            Get in touch and tell us all about it
+          </h3>
+        </div>
+        <div class="feedback-bottom__items">
+          <div class="feedback-bottom__item">
+            <adress>
+              <span class="feedback-bottom__title feedback-bottom__title--first">
+                Our Location
+              </span>
+              <a class="feedback-bottom__link" href="#">
+                <span class="feedback-bottom__span">Midtown Manhattan</span>
+                110 W 34th St, New York
+              </a>
+            </adress>
+          </div>
+          <div class="feedback-bottom__item">
+            <span class="feedback-bottom__title feedback-bottom__title--two">
+              Call Us
+            </span>
+            <a class="feedback-bottom__link" href="tel:(+1)2129462700">
+              (+1) 212-946-2700
+            </a>
+            <a class="feedback-bottom__link" href="tel:(+1)2129462701">
+              (+1) 212-946-2701
+            </a>
+          </div>
+          <div class="feedback-bottom__item">
+            <span class="feedback-bottom__title feedback-bottom__title--last">
+              Contact Us
+            </span>
+            <a class="feedback-bottom__link" href="mailto:info@SublimeAgency.com">
+              info@SublimeAgency.com
+            </a>
+            <a class="feedback-bottom__link" href="mailto:info@SublimeAgency.com">
+              sales@SublimeAgency.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  @include('components/_footer.html', {
+  "logo" : "logo-bottom"
+  })
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

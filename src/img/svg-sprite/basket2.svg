@@ -1,0 +1,5 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 23">
+  <circle id="Эллипс_1" data-name="Эллипс 1" cx="1" cy="1" r="1" transform="translate(8 20)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle id="Эллипс_2" data-name="Эллипс 2" cx="1" cy="1" r="1" transform="translate(19 20)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Контур_281" data-name="Контур 281" d="M1,1H5L7.68,14.39a2,2,0,0,0,2,1.61H19.4a2,2,0,0,0,2-1.61L23,6H6" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

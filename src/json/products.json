@@ -1,0 +1,254 @@
+[
+  {
+    "name": "iPhone SE",
+    "img": "./img/products/iPhoneSe.png",
+    "price": "$350",
+    "newPrice": "$300",
+    "status": "sale",
+    "id": 1
+  },
+  {
+    "name": "AirPods",
+    "img": "./img/products/AirPods.png",
+    "price": "$300",
+    "status": "hot",
+    "id": 2
+  },
+  {
+    "name": "Apple TV",
+    "img": "./img/products/AppleTV.png",
+    "price": "$150",
+    "status": "sale",
+    "id": 3
+  },
+  {
+    "name": "Apple Watch",
+    "img": "./img/products/AppleWatch.png",
+    "price": "$400",
+    "newPrice": "$300",
+    "status": "sale",
+    "id": 4
+  },
+  {
+    "name": "iPad Air",
+    "img": "./img/products/iPadAir.png",
+    "price": "$250",
+    "status": "new",
+    "id": 5
+  },
+  {
+    "name": "iPhone XR",
+    "img": "./img/products/iPhoneXR.png",
+    "price": "$900",
+    "id": 7
+  },
+  {
+    "name": "iPhone XS",
+    "img": "./img/products/iPhoneXS.png",
+    "price": "$899",
+    "id": 8
+  },
+  {
+    "name": "iPhone XS Max",
+    "img": "./img/products/iPhoneXSMax.png",
+    "price": "$1100",
+    "status": "hot",
+    "id": 9
+  },
+  {
+    "name": "iPhone 11 Pro",
+    "img": "./img/products/iPhone11Pro.png",
+    "price": "$1200",
+    "id": 10
+  },
+  {
+    "name": "iPhone 12 mini",
+    "img": "./img/products/iPhone12mini.png",
+    "price": "$1199",
+    "status": "hot",
+    "id": 11
+  },
+  {
+    "name": "iPhone 12 Pro",
+    "img": "./img/products/iPhone12Pro.png",
+    "price": "$1300",
+    "status": "hot",
+    "id": 12
+  },
+  {
+    "name": "iPad Pro",
+    "img": "./img/products/iPadPro.png",
+    "price": "$599",
+    "newPrice": "$499",
+    "status": "hot",
+    "id": 6
+  },
+  {
+    "name": "iPhone 12 Pro Max",
+    "img": "./img/products/iPhone12ProMax.png",
+    "price": "$1400",
+    "id": 13
+  },
+  {
+    "name": "Apple MacBook Air",
+    "img": "./img/products/AppleMacBookAir.png",
+    "price": "$1500",
+    "newPrice": "$1300",
+    "status": "hot",
+    "id": 14
+  },
+  {
+    "name": "Apple MacBook Pro 13",
+    "img": "./img/products/AppleMacBookPro13.png",
+    "price": "$1800",
+    "status": "hot",
+    "id": 15
+  },
+  {
+    "name": "Apple MacBookPro 15",
+    "img": "./img/products/AppleMacBookPro15.png",
+    "price": "$3999",
+    "newPrice": "$2999",
+    "id": 16
+  },
+  {
+    "name": "Apple Mac mini",
+    "img": "./img/products/AppleMacMini.png",
+    "price": "$499",
+    "status": "new",
+    "id": 17
+  },
+  {
+    "name": "Apple Mac Pro Xeon",
+    "img": "./img/products/AppleMacProXeon.png",
+    "price": "$6000",
+    "id": 18
+  },
+  {
+    "name": "Apple iMac 24",
+    "img": "./img/products/AppleiMac24.png",
+    "price": "$1200",
+    "newPrice": "$1100",
+    "status": "sale",
+    "id": 19
+  },
+  {
+    "name": "Apple iMac 27",
+    "img": "./img/products/AppleiMac27.png",
+    "price": "$1500",
+    "id": 20
+  },
+  {
+    "name": "Pixel Wireless Earphones",
+    "img": "./img/products/PixelWirelessEarphones.png",
+    "price": "$199",
+    "id": 21
+  },
+  {
+    "name": "Google Nest Wifi Point",
+    "img": "./img/products/GoogleNestWifiPoint.png",
+    "price": "$149",
+    "status": "new",
+    "id": 22
+  },
+  {
+    "name": "Pixel 5 with 5G",
+    "img": "./img/products/Pixel5with5G.png",
+    "price": "$799",
+    "newPrice": "$699",
+    "status": "new",
+    "id": 23
+  },
+  {
+    "name": "Pixel 4a With Snapdragon",
+    "img": "./img/products/Pixel4aWithSnapdragon.png",
+    "price": "$450",
+    "status": "hot",
+    "id": 24
+  },
+  {
+    "name": "Huawei P30 Pro",
+    "img": "./img/products/HuaweiP30Pro.png",
+    "price": "$699",
+    "newPrice": "$599",
+    "status": "sale",
+    "id": 25
+  },
+  {
+    "name": "Huawei Mate 20 Pro",
+    "img": "./img/products/HuaweiMate20Pro.png",
+    "price": "$700",
+    "status": "hot",
+    "id": 26
+  },
+  {
+    "name": "Huawei P30",
+    "img": "./img/products/HuaweiP30.png",
+    "price": "$599",
+    "newPrice": "$529",
+    "id": 27
+  },
+  {
+    "name": "Huawei P40 Pro",
+    "img": "./img/products/HuaweiP40Pro.png",
+    "price": "$899",
+    "id": 28
+  },
+  {
+    "name": "Huawei P40",
+    "img": "./img/products/HuaweiP40.png",
+    "price": "$900",
+    "id": 29
+  },
+  {
+    "name": "Huawei P40 Pro Plus",
+    "img": "./img/products/HuaweiP40ProPlus.png",
+    "price": "$1100",
+    "newPrice": "$999",
+    "id": 31
+  },
+  {
+    "name": "Huawei Mate 40E",
+    "img": "./img/products/HuaweiMate40E.png",
+    "price": "$899",
+    "status": "hot",
+    "id": 32
+  },
+  {
+    "name": "Huawei Mate Xs",
+    "img": "./img/products/HuaweiMateXs.png",
+    "price": "$999",
+    "status": "new",
+    "id": 33
+  },
+  {
+    "name": "Huawei P50 Pro ",
+    "img": "./img/products/HuaweiP50Pro.png",
+    "price": "$1200",
+    "status": "hot",
+    "id": 34
+  },
+  {
+    "name": "Huawei Mate 30 Pro3",
+    "img": "./img/products/HuaweiMate30Pro.png",
+    "price": "$1099",
+    "newPrice": "$999",
+    "status": "sale",
+    "id": 30
+  },
+  {
+    "name": "Xiaomi Mi 11 Pro",
+    "img": "./img/products/XiaomiMi11Pro.png",
+    "price": "$1099",
+    "newPrice": "$999",
+    "status": "new",
+    "id": 35
+  },
+  {
+    "name": "Xiaomi Mi 11 Ultra",
+    "img": "./img/products/XiaomiMi11Ultra.png",
+    "price": "$1100",
+    "status": "sale",
+    "id": 36
+  }
+]

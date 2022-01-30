@@ -1,0 +1,324 @@
+.contact-form {
+  padding: 100px 0;
+  background-image: url("../img/content/contact1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @include max-1000 {
+    padding: 80px 0;
+  }
+
+  @include max-600 {
+    padding: 60px 0;
+  }
+
+  .blog__popup {
+    @include max-662 {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+
+    @include max-1100 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__wrapper {
+    position: relative;
+    max-width: 470px;
+    width: 100%;
+    padding: 47px 70px 61px;
+    border-radius: 30px;
+    background-color: #fff;
+
+    @include max-1100 {
+      max-width: 800px;
+    }
+
+    @include max-500 {
+      padding: 47px 30px 50px;
+    }
+
+    @include max-360 {
+      padding: 35px 25px 35px;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      top: 5%;
+      left: -18%;
+      height: 39px;
+      width: 79px;
+      background-image: url("../img/content/dots.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      transform: rotate(-90deg);
+
+      @include max-1100 {
+        display: none;
+      }
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 330px;
+    width: 100%;
+
+    @include max-1100 {
+      max-width: 100%;
+    }
+
+    input {
+      width: 100%;
+    }
+  }
+
+  &__name,
+  &__email,
+  &__message {
+    border: none;
+    padding: 11px 20px 13px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    outline: transparent;
+  }
+
+  &__name,
+  &__email {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    min-width: 46px;
+  }
+
+  &__message {
+    position: relative;
+    padding: 11px 20px 117px;
+    margin-bottom: 20px;
+    min-height: 150px;
+
+    &::placeholder {
+      position: absolute;
+      left: 20px;
+      top: 11px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 33px;
+    font-size: 20px;
+    color: $title;
+    font-family: "Inter-Bold";
+  }
+
+  &__btn {
+    text-align: center;
+    padding: 11px 40px 13px;
+    color: $main-home;
+    border: 1px solid $main-home;
+    border-radius: 23px;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    @include max-1100 {
+      background-color: $main-home;
+      color: #fff;
+    }
+
+    @include max-360 {
+      width: 100%;
+    }
+
+    &:hover {
+      background-color: $main-home;
+      color: #fff;
+    }
+  }
+
+  &__wrap {
+    padding-top: 40px;
+    max-width: 570px;
+    width: 100%;
+
+    @include max-1100 {
+      max-width: 800px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    font-size: 34px;
+    color: $title;
+    font-family: "Inter-Bold";
+
+    @include max-600 {
+      font-size: 26px;
+    }
+
+    @include max-460 {
+      font-size: 22px;
+    }
+  }
+
+  &__desc {
+    margin-bottom: 40px;
+  }
+}
+
+.contact-brand {
+  padding: 100px 0;
+
+  @include max-1000 {
+    padding: 80px 0;
+  }
+
+  @include max-600 {
+    padding: 60px 0;
+  }
+}
+
+.work {
+  padding: 100px 0;
+  background-image: url("../img/content/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @include max-1100 {
+    padding: 80px 0;
+    background-color: #eaeefa;
+    background-image: inherit;
+  }
+
+  @include max-600 {
+    padding: 60px 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    @include max-1100 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__wrap {
+    padding-top: 50px;
+    max-width: 470px;
+    width: 100%;
+    margin-right: 10px;
+
+    @include max-1100 {
+      padding-top: 0;
+      margin-right: 0;
+      max-width: 800px;
+    }
+  }
+
+  &__span {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    margin-bottom: 55px;
+    font-size: 34px;
+    color: $title;
+    font-family: "Inter-Bold";
+
+    @include max-600 {
+      font-size: 26px;
+    }
+
+    @include max-460 {
+      font-size: 22px;
+    }
+  }
+
+  &__box {
+    position: relative;
+    max-width: 570px;
+    width: 100%;
+    height: 640px;
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    position: absolute;
+    border-radius: 20px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__img--first {
+    top: 0;
+    left: 0;
+    width: 380px;
+    height: 400px;
+    z-index: 1;
+    box-shadow: rgba(41, 41, 43, 0.2) 0 20px 70px;
+
+    @include max-600 {
+      width: 300px;
+      height: 320px;
+    }
+
+    @include max-360 {
+      width: 290px;
+      height: 310px;
+    }
+  }
+
+  &__img--last {
+    right: 0;
+    bottom: 0;
+    width: 370px;
+    height: 400px;
+    box-shadow: rgba(41, 41, 43, 0.1) 0 10px 35px;
+
+    @include max-600 {
+      width: 300px;
+      height: 330px;
+    }
+
+    @include max-360 {
+      width: 290px;
+      height: 320px;
+    }
+  }
+}
+
+.accordion__item.active {
+  .accordion__content {
+    padding: 19px 0 11px;
+  }
+}
+
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.active .accordion__content {
+  max-height: 150px;
+}

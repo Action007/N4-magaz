@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 522" width="1800" height="522">
+	<title>CTA</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f2f6fb } 
+		.shp1 { fill: none;stroke: #f6e4eb;stroke-linejoin:round;stroke-width: 70 } 
+		.shp2 { fill: none;stroke: #fce5b8;stroke-linejoin:round;stroke-width: 100 } 
+	</style>
+	<g id="CTA">
+		<g id="BG">
+			<path id="BG" class="shp0" d="M50 0L1750 0C1777.61 0 1800 22.39 1800 50L1800 472C1800 499.61 1777.61 522 1750 522L50 522C22.39 522 0 499.61 0 472L0 50C0 22.39 22.39 0 50 0Z" />
+			<path id="Shape" class="shp1" d="M118.67 9.77C178.1 -49.74 274.58 -49.62 334.16 10.02C393.73 69.66 393.84 166.26 334.4 225.77" />
+			<path id="Shape" class="shp2" d="M1632.94 505.35C1584.46 589.34 1476.99 618.08 1392.91 569.53C1308.84 520.99 1279.98 413.55 1328.47 329.56" />
+		</g>
+	</g>
+</svg>

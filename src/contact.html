@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/favicon/favicon-main.png">
+  <title>Sublime</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+
+  @include('components/_header.html', {
+  "header": "header header--scroll",
+  "btn" : "header-main__link",
+  "logo" : "logo",
+  "link" : "Contact",
+  "top" : {
+  }
+  })
+
+  <main class="main">
+    @include('./components/_breadcrumbs.html', {
+    "title": "Online strategy and consulting services",
+    "link" : "Contact Us"
+    })
+
+    <section class="memberships">
+      <div class="container">
+        <div class="memberships__wrapper">
+          <div class="memberships__wrap">
+            <h2 class="memberships__title">
+              A brand & digital design agency
+              for ambitious young businesses
+            </h2>
+            <p class="memberships__desc">
+              Building brands that push things forward
+            </p>
+            <div class="memberships__text">
+              <p>
+                Prioritizing brands to understand behavior, solve complex challenges, and create mutually beneficial
+                experiences.
+              </p>
+              <p>
+                We focus on branding, apps, video-centric web design, development, and strategy in all of our products.
+              </p>
+            </div>
+            <a class="memberships__btn link-btn" href="#">
+              Get Started
+            </a>
+            <a class="memberships__link" href="#">
+              Call Us At 212-946-2700
+            </a>
+          </div>
+          <div class="memberships__box">
+            <div class="memberships__img memberships__img--first">
+              <img src="img/content/studio3.jpg" alt="">
+            </div>
+            <div class="memberships__img memberships__img--last">
+              <img src="img/content/memberships2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-form">
+        <div class="container">
+          <div class="contact-form__inner">
+            <div class="contact-form__wrapper">
+              <p class="contact-form__text">
+                Contact us if you have any query
+              </p>
+              <form class="contact-form__form">
+                <label for="name"></label>
+                <input class="contact-form__name" id="name" type="text" placeholder="Name">
+                <label for="email"></label>
+                <input class="contact-form__email" id="email" type="email" placeholder="Email">
+                <label for="message"></label>
+                <input class="contact-form__message" id="message" type="text" placeholder="Message">
+                <button class="contact-form__btn" type="submit">
+                  Submit
+                </button>
+              </form>
+            </div>
+            <div class="contact-form__wrap">
+              <h2 class="contact-form__title">
+                Let's make something great together and let your brand shine
+              </h2>
+              <p class="contact-form__text">
+                Doing great products for good people
+              </p>
+              <div class="contact-form__desc">
+                <p>
+                  We build sunny warm-toned optimistic brands. Life's too short for dull businesses. Experienced with
+                  different poles
+                  which can be helpful at different stages of the projects.
+                </p>
+              </div>
+              <a class="blog__popup"
+                href="#">
+                <svg class="blog__svg" xmlns="http://www.w3.org/2000/svg" width="79.94" height="80.04"
+                  viewBox="0 0 79.94 80.04">
+                  <g id="Play" transform="translate(-1019.9 -714.96)">
+                    <ellipse id="Ellipse-2" data-name="Ellipse" cx="34.98" cy="35.02" rx="34.98" ry="35.02"
+                      transform="translate(1024.91 719.96)" fill="#fff" />
+                    <g id="Icon" transform="translate(1051 745.5)">
+                      <path id="Контур_280" data-name="Контур 280" d="M3.75,2.25,14.25,9,3.75,15.75Z" fill="#4732d7"
+                        stroke="#4732d7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="contact-brand">
+          <span class="visual__desc">
+            They’re partners that inspire us to drive ongoing results
+          </span>
+          @include('./components/_brands-slider.html')
+        </div>
+      </div>
+    </section>
+
+    <section class="work">
+      <div class="container">
+        <div class="work__wrapper">
+          <div class="work__box">
+            <div class="work__img work__img--first">
+              <img src="img/content/work1.jpg" alt="">
+            </div>
+            <div class="work__img work__img--last">
+              <img src="img/content/work2.jpg" alt="">
+            </div>
+          </div>
+          <div class="work__wrap accordion">
+            <span class="work__span">
+              Frequently Asked Questions
+            </span>
+            <h2 class="work__title">
+              Create a better way to work
+            </h2>
+            <ul class="questions__items one accordion__items">
+              <li class="questions__item accordion__item">
+                <button class="questions__add accordion__title">
+                  What is coworking?
+                </button>
+                <div class="questions__text accordion__content">
+                  <p>
+                    The size of the drop-in meeting rooms differ, we have smaller meeting rooms for up to 2 people, as
+                    well as larger one.
+                  </p>
+                </div>
+              </li>
+              <li class="questions__item accordion__item">
+                <button class="questions__add accordion__title">
+                  What size are the meeting rooms?
+                </button>
+                <div class="questions__text accordion__content">
+                  <p>
+                    The size of the drop-in meeting rooms differ, we have smaller meeting rooms for up to 2 people, as
+                    well as larger one.
+                  </p>
+                </div>
+              </li>
+              <li class="questions__item accordion__item">
+                <button class="questions__add accordion__title">
+                  How do I buy a coworking pass?
+                </button>
+                <div class="questions__text accordion__content">
+                  <p>
+                    It's one who can promise and deliver on results in terms of conversions, sales, qualified leads, or
+                    more rather than
+                    just impressions, reach, and engagement.
+                  </p>
+                </div>
+              </li>
+              <li class="questions__item accordion__item">
+                <button class="questions__add accordion__title">
+                  Can I share my coworking pass?
+                </button>
+                <div class="questions__text accordion__content">
+                  <p>
+                    The size of the drop-in meeting rooms differ, we have smaller meeting rooms for up to 2 people, as
+                    well as larger one.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="container">
+        <div class="sublime-bottom">
+          <h2 class="sublime-bottom__heading title">
+            We help brands to create their identities and tell visual stories
+          </h2>
+          <div class="sublime-bottom__items">
+            <div class="sublime-bottom__item">
+              <adress>
+                <span class="sublime-bottom__title sublime-bottom__title--first">
+                  Our Location
+                </span>
+                <a class="sublime-bottom__link" href="#">
+                  <span class="sublime-bottom__span">Midtown Manhattan</span>
+                  110 W 34th St, New York
+                </a>
+              </adress>
+            </div>
+            <div class="sublime-bottom__item">
+              <span class="sublime-bottom__title sublime-bottom__title--two">
+                Let’s Talk
+              </span>
+              <a class="sublime-bottom__link" href="tel:(+1)2129462700">
+                (+1) 212-946-2700
+              </a>
+              <a class="sublime-bottom__link" href="tel:(+1)2129462701">
+                (+1) 212-946-2701
+              </a>
+            </div>
+            <a class="sublime-bottom__item sublime-bottom__item--last" href="#">
+              <span class="sublime-bottom__head">
+                We're Hiring!
+              </span>
+              <span class="sublime-bottom__desc" href="#">
+                working at sublime
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="join">
+        <div class="container">
+          <div class="join__wrapper">
+            <h3 class="join__title">
+              Subscribe to our mailing list. Join our mail list to
+              receive our newsletter
+            </h3>
+            <p class="join__subtitle">
+              We'll keep you up to date with our latest news, insights, free resources, and much more.
+            </p>
+            <form class="join-form join__form">
+              <input class="join-form__input join__input" type="email" placeholder="Enter your email">
+              <button class="link-btn" type="submit">
+                Subscribe
+              </button>
+            </form>
+            <span class="join__span">Don't worry, we won't spam you.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  @include('components/_footer.html', {
+  "logo" : "logo-bottom"
+  })
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Icon" transform="translate(-4 -4)">
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="2" cy="2" rx="2" ry="2" transform="translate(22 22)" fill="#7d8dff"/>
+    <path id="Path_118" data-name="Path 118" d="M24,4A20,20,0,0,0,8.514,36.658L4.586,40.586A2,2,0,0,0,6,44H24A20,20,0,1,0,24,4ZM16,26a2,2,0,1,1,2-2A2,2,0,0,1,16,26Zm8,0a2,2,0,1,1,2-2A2,2,0,0,1,24,26Zm8,0a2,2,0,1,1,2-2A2,2,0,0,1,32,26Z" fill="#b1baff"/>
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="2" cy="2" rx="2" ry="2" transform="translate(14 22)" fill="#7d8dff"/>
+    <ellipse id="Ellipse_4" data-name="Ellipse 4" cx="2" cy="2" rx="2" ry="2" transform="translate(30 22)" fill="#7d8dff"/>
+  </g>
+</svg>

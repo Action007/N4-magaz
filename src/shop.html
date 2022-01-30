@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="img/favicon/favicon-main.png">
+  <title>Sublime</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+
+
+  @include('components/_header.html', {
+  "header": "header header--scroll",
+  "btn" : "header-main__link",
+  "logo" : "logo",
+  "link" : "Contact",
+  "top" : {
+  }
+  })
+
+  <main class="main">
+    @include('./components/_breadcrumbs.html', {
+    "title": "Shop",
+    "link" : "Contact Us"
+    })
+
+    <section class="shop">
+      <div class="container">
+        <div class="shop-select">
+          <span class="shop-select__desc">Sort by</span>
+          <select class="shop-select__wrap">
+            <option class="shop-select--all" value="0">A-Z</option>
+            <option class="shop-select--high" value="1">Sort by price: low to high</option>
+            <option class="shop-select--low" value="2">Sort by price: high to low</option>
+          </select>
+        </div>
+        <div class="shop-items">
+        </div>
+        <div class="shop__add">
+          <button class="shop__add-btn link-btn" type="button">Show More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="join">
+        <div class="container">
+          <div class="join__wrapper">
+            <h3 class="join__title">
+              Subscribe to our mailing list. Join our mail list to
+              receive our newsletter
+            </h3>
+            <p class="join__subtitle">
+              We'll keep you up to date with our latest news, insights, free resources, and much more.
+            </p>
+            <form class="join-form join__form">
+              <input class="join-form__input join__input" type="email" placeholder="Enter your email">
+              <button class="link-btn" type="submit">
+                Subscribe
+              </button>
+            </form>
+            <span class="join__span">Don't worry, we won't spam you.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  @include('components/_footer.html', {
+  "logo" : "logo-bottom"
+  })
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

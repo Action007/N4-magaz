@@ -1,0 +1,252 @@
+.shop {
+  padding: 90px 5px;
+
+  @include max-1200 {
+    padding: 80px 10px;
+  }
+
+  @include max-1000 {
+    padding: 60px 10px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 30px;
+    animation-duration: 0.5s;
+
+    @include max-1200 {
+      padding: 0 5px;
+    }
+
+    @include max-1000 {
+      width: 33.333%;
+      margin-bottom: 20px;
+    }
+
+    @include max-760 {
+      width: 50%;
+    }
+
+    @include max-500 {
+      max-width: 400px;
+      width: 100%;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+    transition: all 0.3s ease;
+
+    &:hover {
+      box-shadow: #29292b23 0 10px 35px;
+      transform: translateY(-10px);
+      border-color: #29292b1a;
+
+      @include max-1100 {
+        box-shadow: none;
+        transform: none;
+        border: 1px solid #e7e7e7;
+      }
+    }
+  }
+
+  &__img {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-height: 190px;
+    height: 190px;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 15px 20px 25px;
+    background-color: #fff;
+
+    @include max-1200 {
+      padding: 15px 18px 20px;
+    }
+  }
+
+  &__name {
+    display: block;
+    margin-bottom: 15px;
+    line-height: 1.3;
+    font-size: 18px;
+    color: #26256c;
+    font-family: "Inter-Bold";
+  }
+
+  &__price {
+    display: inline-block;
+    margin-bottom: 30px;
+    color: #5e709d;
+    font-size: 18px;
+
+    &.shop__price--none {
+      text-decoration: line-through;
+      color: #999;
+    }
+
+    &.shop__price--new {
+      transform: translateX(10px);
+    }
+  }
+
+  &__btn {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 30px;
+
+    @include max-1200 {
+      padding: 8px 30px;
+    }
+  }
+
+  &__add {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+
+    .link-btn {
+      background-color: #28246c;
+      color: #fff;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #4732d7;
+      }
+    }
+  }
+
+  &__add-btn--none {
+    display: none;
+  }
+
+  &__status {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 20px;
+    background-color: #18c434;
+    color: #fff;
+    z-index: 2;
+    font-weight: 500;
+    border-radius: 20px;
+
+    &.shop__status--hot {
+      background-color: #ff0000;
+    }
+
+    &.shop__status--new {
+      background-color: #0000ff;
+    }
+  }
+}
+
+.shop-select {
+  position: relative;
+  padding: 0 5px;
+  margin-bottom: 70px;
+  text-align: right;
+
+  @include max-1000 {
+    margin-bottom: 50px;
+  }
+
+  @include max-760 {
+    margin-bottom: 30px;
+  }
+
+  @include max-460 {
+    text-align: left;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: #29292b57 transparent transparent transparent;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 25px;
+    z-index: 1;
+
+    @include max-460 {
+      display: none;
+    }
+  }
+
+  &__wrap {
+    max-width: 270px;
+    padding: 8px 50px 8px 20px;
+    cursor: pointer;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    color: #5e709d;
+    outline: transparent;
+    background-color: #fff;
+    appearance: none;
+
+    @include max-460 {
+      appearance: auto;
+    }
+  }
+
+  &__desc {
+    display: inline-block;
+    margin-right: 15px;
+    color: #5e709d;
+    font-size: 18px;
+
+    @include max-460 {
+      margin: 0 0 15px;
+      width: 100%;
+    }
+  }
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+
+  @include max-500 {
+    justify-content: center;
+  }
+}

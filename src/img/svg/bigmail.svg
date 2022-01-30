@@ -1,0 +1,12 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_13" data-name="Group 13">
+    <line id="Line_1" data-name="Line 1" x2="8.438" transform="translate(33.75 8.438)" fill="none" stroke="#151a6a" stroke-miterlimit="10" stroke-width="1.875"/>
+    <line id="Line_2" data-name="Line 2" x2="24.375" transform="translate(17.813 15.938)" fill="none" stroke="#151a6a" stroke-miterlimit="10" stroke-width="1.875"/>
+    <line id="Line_3" data-name="Line 3" x2="24.375" transform="translate(17.813 23.438)" fill="none" stroke="#151a6a" stroke-miterlimit="10" stroke-width="1.875"/>
+    <g id="Group_12" data-name="Group 12">
+      <path id="Path_50" data-name="Path 50" d="M.938,24.375,30,42.594,59.063,24.375" fill="none" stroke="#151a6a" stroke-miterlimit="10" stroke-width="1.875"/>
+      <path id="Path_51" data-name="Path 51" d="M10.626,20.313.938,24.375V59.063H59.063V24.375h0l-9.688-4.062" fill="none" stroke="#151a6a" stroke-miterlimit="10" stroke-width="1.875"/>
+      <path id="Path_52" data-name="Path 52" d="M10.313,30V.938H49.688V30" fill="none" stroke="#151a6a" stroke-miterlimit="10" stroke-width="1.875"/>
+    </g>
+  </g>
+</svg>

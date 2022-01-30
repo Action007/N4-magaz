@@ -1,0 +1,11 @@
+$main-home: #4732d7;
+$main-digital: #7d8dff;
+$font-color: #5e709d;
+$title: #26256c;
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
